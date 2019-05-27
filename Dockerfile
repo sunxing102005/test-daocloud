@@ -5,4 +5,4 @@ COPY . /home/Service
 # RUN npm install cnpm -g --registry=https://registry.npm.taobao.org 
 RUN npm install
 EXPOSE 3000
-CMD npm start
+CMD node server.js
